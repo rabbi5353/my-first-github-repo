@@ -3,9 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub</title>
+    <title>Form Create</title>
+
+    <style>
+        h1{
+            text-align: center;
+        }
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        form{
+            width: 180px;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>This is HTML Form</h1>
+    <form>
+        <label for="name">Name: <br>
+            <input type="text" placeholder="Name">
+        </label>
+        <label for="email">Email: <br>
+            <input type="email" placeholder="Email">
+        </label>    
+        <label for="password">Password: <br>
+            <input type="password" placeholder="Password">
+        </label>
+        <input type="submit">
+    </form>
 </body>
 </html>
